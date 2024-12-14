@@ -12,7 +12,7 @@ document.getElementById('send-btn').addEventListener('click', async () => {
     const data = await response.json();
     const messages = document.getElementById('messages');
     messages.innerHTML += `<p><b>User:</b> ${userInput}</p>`;
-    messages.innerHTML += `<p><b>Bot:</b> ${data.response}</p>`;
+    messages.innerHTML += `<p><b>T-Rex(Chatbot):</b> ${data.response}</p>`;
     document.getElementById('user-input').value = '';
     messages.scrollTop = messages.scrollHeight; // Auto-scroll to the bottom
 });

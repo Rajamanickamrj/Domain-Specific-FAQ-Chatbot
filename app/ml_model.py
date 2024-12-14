@@ -10,8 +10,8 @@ MODEL_PATH = 'app/model.pkl'
 # MySQL connection configuration
 MYSQL_CONFIG = {
     'host': 'localhost',
-    'user': 'your_mysql_username',
-    'password': 'your_mysql_password',
+    'user': 'root',
+    'password': 'mysqlRoot@123',
     'database': 'chatbot'
 }
 

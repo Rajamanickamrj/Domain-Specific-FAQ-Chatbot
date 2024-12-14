@@ -6,3 +6,4 @@ gunicorn==22.0.0
 joblib==1.2.0
 pytest==7.4.0
 mysql-connector-python
+nltk==3.8.1
